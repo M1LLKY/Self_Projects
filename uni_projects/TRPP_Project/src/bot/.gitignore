@@ -1,0 +1,9 @@
+.env
+level.db
+.idea
+workspace.xml
+misc.xml
+project_bot.iml
+me_client.session
+dolgi.db
+.myPyLib
