@@ -1,0 +1,113 @@
+<mxfile host="Electron" modified="2024-06-07T15:15:28.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="h1YxWyTRzOAPffSeG8mp" version="24.5.1" type="device">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="1163" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_5mSTuPxr-ZiKRkBDSY7-1" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="1080" height="440" as="geometry" />
+        </mxCell>
+        <object label="Отдел продаж" status="New" id="_5mSTuPxr-ZiKRkBDSY7-2">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Продажа компьютеров и ноутбуков" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-3">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Продажа комплектующих" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Продажа периферийных устройств" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-5">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Продажа программного обеспечения" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-35">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-2">
+            <mxGeometry x="20" y="321" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Отдел тех. обслуживания и ремонта" status="New" id="YmqBKnOoh8rCrYdGr8ta-13">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-1">
+            <mxGeometry x="180" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Диагностика и ремонт" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-14">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=red;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-13">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Сервисное обслуживание" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-30">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=red;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-13">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Консультации и обучение" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-31">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=red;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-13">
+            <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Отдел аренды" status="In progress" id="_5mSTuPxr-ZiKRkBDSY7-6">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry x="360" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Аренда компьютерной техники" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-7">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Отдел консультаций и продажи" status="In progress" id="YmqBKnOoh8rCrYdGr8ta-23">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-1">
+            <mxGeometry x="540" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Консультация" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-24">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=blue;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-23">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Продажа" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-32">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=blue;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-23">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Отдел маркетинга и рекламы" status="In progress" id="YmqBKnOoh8rCrYdGr8ta-20">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-1">
+            <mxGeometry x="720" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Рекламные мероприятия" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-21">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=purple;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-20">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Маркетинговые исследования" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-33">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=purple;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-20">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Отдел закупок и снабжения" status="In progress" id="YmqBKnOoh8rCrYdGr8ta-26">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-1">
+            <mxGeometry x="900" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Закупка товаров" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-27">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=brown;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-26">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Контроль качества" placeholders="1" id="YmqBKnOoh8rCrYdGr8ta-34">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=brown;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="YmqBKnOoh8rCrYdGr8ta-26">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
