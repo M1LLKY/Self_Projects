@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{% block title %} Создать клиента {% endblock %}</h1>
+ <form class="form-signin" action="{{ url_for('create_client') }}" method="post">
+    {{ name }}
+    <h1 class="mb-3 font-weight-normal">Создание нового клиента</h1>
+    <input type="text" name="name" placeholder="Имя" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="phone_number" placeholder="Номер телефона" required>
+    <input type="text" name="passport" placeholder="Паспорт" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Создать</button>
+    <br>
+    <br>
+    <button class="bg-primary" type="submit">
+        <a style="color: white;">Сохранить</a>
+    </button>
+</form>
+{% endblock %}

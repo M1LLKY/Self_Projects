@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{% block title %} Клиенты {% endblock %}</h1>
+<hr>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">ФИО</th>
+            <th scope="col">Почта</th>
+            <th scope="col">Номер телефона</th>
+            <th scope="col">Паспорт</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for elem in clients %}
+            <tr>
+                <td scope="col">{{ elem['id_client'] }}</td>
+                <td scope="col" >{{ elem['name'] }}</td>
+                <td scope="col">{{ elem['email'] }}</td>
+                <td scope="col">{{ elem['phone_number'] }}</td>
+                <td scope="col">{{ elem['passport'] }}</td>
+                <td scope="col">
+                    <a href="{{ url_for('one_client', id_client=elem['id_client']) }}">Подробнее</a>
+                </td>
+
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<button class="bg-primary">
+    <a style="color: white;" href="{{ url_for('create_client') }}">Добавить клиента</a>
+</button>
+
+{% endblock %}

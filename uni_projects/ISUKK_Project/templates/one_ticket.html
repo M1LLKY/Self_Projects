@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{% block title %} Сведения о билете {% endblock %}</h1>
+<div>
+    <h3>Товар: {{ ticket['id'] }}</h3>
+    <h3>Производитель: {{ ticket['CPU'] }}</h3>
+    <h3>Жанр: {{ ticket['GPU'] }}</h3>
+    <h3>Наименование: {{ ticket['Motherboard'] }}</h3>
+    <h3>Язык: {{ ticket['RAM'] }}</h3>
+    <h3>Тип Билета: {{ ticket['Case'] }}</h3>
+    <h3>Доступность: {{ ticket['available'] }}</h3>
+    <h3>ИД клиента: {{ ticket['client_id'] }}</h3>
+    <h3>Цена: {{ ticket['price'] }}</h3>
+</div>
+
+<button class="bg-danger">
+    <a style="color: white;" href="{{ url_for('remove_row', table='computers', row_id=computer['id']) }} ">Удалить товар</a>
+</button>
+
+
+
+{% endblock %}
+

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{% block title %} Создать билет {% endblock %}</h1>
+<form method="POST">
+    <br>
+    <label for="CPU">Производитель:</label>
+    <input type="text" id="CPU" name="Avtor">
+    <br>
+    <label for="GPU">Жанр:</label>
+    <input type="text" id="GPU" name="Janr">
+    <br>
+    <label for="Motherboard">Наименование:</label>
+    <input type="text" id="Motherboard" name="style">
+    <br>
+    <label for="RAM">Язык:</label>
+    <input type="text" id="RAM" name="Lan">
+    <br>
+    <label for="Case">Тип билета:</label>
+    <input type="text" id="Case" name="Case">
+    <br>
+    <label for="available">Доступность:</label>
+    <input type="text" id="available" name="available">
+    <br>
+    <label for="client_id">ИД клиента:</label>
+    <input type="text" id="client_id" name="client_id">
+    <br>
+    <label for="price">Цена:</label>
+    <input type="text" id="price" name="price">
+    <br>
+    <br>
+    <button class="bg-primary" type="submit">
+        <a style="color: white;">Сохранить</a>
+    </button>
+</form>
+{% endblock %}
+

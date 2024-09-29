@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{% block title %} Список отчетов {% endblock %}</h1>
+    <ul>
+        {% for report in reports %}
+            <li><a href="{{ url_for('download_report', report_name=report) }}">{{ report }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+{% endblock %}
